@@ -4,14 +4,14 @@
 
 <i class="icon-cog"></i>**Datos de la web**
 >  
-> - **Host:** 
-> - **Web:**   <i class="icon-upload"></i>
+> - **Host:** GH PAGES
+> - **Web:**   <i class="icon-upload">https://varelacristianfacundo.github.io/Grissia/</i>
 
 ----------
 **Pantalla de la web**
 ----------
-*Index*
->![picture alt](multimedia/grissia.jpg "Login")
+*Home page*
+>![picture alt](assets/Home.png "Home")
 ----------
 
 **<i class="icon-cog"> Funcionalidades del sistema**
