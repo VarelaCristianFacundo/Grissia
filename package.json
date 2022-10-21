@@ -1,8 +1,19 @@
 {
+  "name": "grissia",
+  "version": "0.1.0",  
+  "homepage": "http://VarelaCristianFacundo.github.io/grissia",
   "devDependencies": {
     "tailwindcss": "^3.2.0"
   },
   "dependencies": {
     "flowbite": "^1.5.3"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   }
 }
