@@ -1,0 +1,25 @@
+.subtitles {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 55px;
+    /* identical to box height, or 172% */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    /* Naranja */
+
+    color: #EC9A59;
+}
+
+.boxServices {
+
+    border: 1px solid #D9D9D9;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

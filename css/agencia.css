@@ -1,0 +1,30 @@
+.bg-img-agencia {
+    background-image: url("../assets/agencia.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.textStyles {
+    font-style: normal;
+    font-weight: 400;
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.textEndStyle{
+    font-family: 'IBM Plex Sans';
+font-style: italic;
+font-weight: 600;
+font-size: 25px;
+line-height: 42px;
+/* or 88% */
+
+letter-spacing: 0.05em;
+
+/* VerdeMedio */
+
+color: #154344;
+}
