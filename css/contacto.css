@@ -1,0 +1,72 @@
+.contactForm {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.26);
+    padding: 3rem;
+    padding-left: 15rem;
+}
+
+.infoContact {
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    left: 52px;
+    top: 345px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.26);
+}
+
+.infoContact p {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;    
+    line-height: 55px;
+    /* or 275% */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.infoContact a{
+    color: #EC9A59;
+}
+
+.inputContactFormt {
+    border: none;
+    border-radius: 0;
+    border-bottom-style: inherit;
+    border-color: #04202B;
+    padding-left: 0;
+    padding-bottom: 0;
+    font-style: italic;
+}
+
+.titleFormInfo {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 55px;    
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    /* Naranja */
+    color: #EC9A59;
+}
+
+
+
+input::placeholder {
+    color: #D8D8D8 !important;
+}
+
+label {
+    color: #828282 !important;
+}
+
+.btnContact {
+    position: inherit;
+    width: 217px;
+    height: 59px;
+    background-color: #D9D9D9 !important;
+    font-size: 27px !important;
+}
