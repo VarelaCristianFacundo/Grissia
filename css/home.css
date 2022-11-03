@@ -16,3 +16,8 @@ h1{
     font-family: 'IBM Plex Serif', serif;
     font-weight: 700;
 }
+
+.footerLine{
+    border-top: 1px inset black;    
+    margin-bottom: 2rem;
+}
