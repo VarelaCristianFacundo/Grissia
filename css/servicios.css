@@ -23,3 +23,8 @@
     order: 0;
     flex-grow: 0;
 }
+
+.lineServices{
+    height: 1px;
+    width: 53%;
+}
