@@ -1,6 +1,10 @@
 body{
     margin: 1rem !important;
 }
+#modalProject1{
+    background: rgba(0, 0, 0, 0.9) !important;
+    opacity: 0.95;
+}
 
 .linePortfolio{
     height: 1px;
@@ -55,4 +59,7 @@ body{
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
+    .popupMobile{
+        margin-top: 15rem;
+    }    
 }
