@@ -26,7 +26,7 @@ body{
     }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 599px) {
+@media only screen and (min-device-width: 250px) and (max-device-width: 599px) {
     .titlePortfolio{
         margin-right: 0 !important;
         margin-left: 1rem;
