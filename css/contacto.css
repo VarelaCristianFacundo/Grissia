@@ -15,6 +15,10 @@
     box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.26);
 }
 
+.titleFormContact{
+    color: #154344;
+}
+
 .infoContact p {
     font-family: 'IBM Plex Sans';
     font-style: normal;
