@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
     <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
     <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/portfolio.css">
     <title>Grissia - Portfolio</title>
 </head>
 
@@ -48,17 +49,17 @@
                             <a href="./servicios.html"
                                 class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0">Servicios</a>
                         </li>
-                        <li>|</li>
+                        <li class="hiddenMobile">|</li>
                         <li>
                             <a href="./portfolio.html"
                                 class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0">Portfolio</a>
                         </li>
-                        <li>|</li>
+                        <li class="hiddenMobile">|</li>
                         <li>
                             <a href="./agencia.html"
                                 class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0">Agencia</a>
                         </li>
-                        <li>|</li>
+                        <li class="hiddenMobile">|</li>
                         <li>
                             <a href="./contacto.html"
                                 class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0">Contacto</a>
@@ -81,38 +82,40 @@
     <section class="bg-white">
         <div class="py-8 mx-auto max-w-screen-xl sm:py-16">
             <div class="textStyles mx-auto max-w-screen-lg">
-                <h2 class="mt-16 text-4xl tracking-wider font-extrabold leading-tight">Portfolio</h2>
-                <h4 class="mt-8 tracking-wider">Te invitamos a hacer un acercamiento a nuestros trabajos destacados,
-                    cada uno con su propia impronta y esencia.</h4>
-                <hr class="mt-4">
+                <h2 class="mt-16 text-4xl tracking-wider font-extrabold leading-tight titleSection">Portfolio</h2>
+                <h4 class="mt-8 tracking-wider titlePortfolio">Te invitamos a hacer un acercamiento a nuestros trabajos destacados,
+                    cada uno con su propia impronta y esencia.</h4>                      
+                    <div class="flex mt-8">
+                        <img class="linePortfolio" src="../assets/utilities/line.png" alt="">
+                    </div>
             </div>
         </div>
-    </section>
+    </section>    
 
     <!-- <section class="py-8 px-4">
     <div class="max-w-screen-xl mx-auto"> -->
     <section class="mx-auto max-w-screen-lg">
-        <div class="mx-auto max-w-screen-xl md:grid">
+        <div class="mx-auto max-w-screen-xl md:grid divImgs">
             <div class="flex flex-wrap -mx-4 mb-8">
-                <div class="md:w-1/2 px-4 mb-8 md:mb-0"><img type="button" data-modal-toggle="modalProject1"
-                        class="h-full cursor-pointer shadow-md mb-8" src="../assets/Portfolio/1.png" alt="">
+                <div class="md:w-1/2 px-4 mb-8 md:mb-0 imgMobile"><img type="button" data-modal-toggle="modalProject1"
+                        class="h-full cursor-pointer shadow-md" src="../assets/Portfolio/1.png" alt="">
                 </div>
-                <div class="md:w-1/2 px-4 mb-8 md:mb-0"><img type="button" data-modal-toggle="modalProject2"
-                        class="h-full cursor-pointer shadow-md mb-8" src="../assets/Portfolio/2.png" alt="">
+                <div class="md:w-1/2 px-4 md:mb-0 imgMobile"><img type="button" data-modal-toggle="modalProject2"
+                        class="h-full cursor-pointer shadow-md" src="../assets/Portfolio/2.png" alt="">
                 </div>
             </div>
             <div class="flex flex-wrap -mx-4">
-                <div class="md:w-1/3 px-4 mb-8"><img type="button" data-modal-toggle="modalProject3"
+                <div class="md:w-1/3 px-4 mb-8 imgMobile"><img type="button" data-modal-toggle="modalProject3"
                         class="h-full cursor-pointer shadow-md" src="../assets/Portfolio/3.png" alt=""></div>
-                <div class="md:w-1/3 px-4 mb-8"><img type="button" data-modal-toggle="modalProject4"
+                <div class="md:w-1/3 px-4 mb-8 imgMobile"><img type="button" data-modal-toggle="modalProject4"
                         class="h-full cursor-pointer shadow-md" src="../assets/Portfolio/4.png" alt=""></div>
-                <div class="md:w-1/3 px-4 mb-8"><img type="button" data-modal-toggle="modalProject5"
+                <div class="md:w-1/3 px-4 mb-8 imgMobile"><img type="button" data-modal-toggle="modalProject5"
                         class="h-full cursor-pointer shadow-md" src="../assets/Portfolio/5.png" alt=""></div>
             </div>
             <div class="flex flex-wrap -mx-4">
-                <div class="md:w-1/2 px-4 mb-8 md:mb-0"><img type="button" data-modal-toggle="modalProject6"
+                <div class="md:w-1/2 px-4 mb-8 md:mb-0 imgMobile"><img type="button" data-modal-toggle="modalProject6"
                         class="h-full cursor-pointer shadow-md" src="../assets/Portfolio/6.png" alt=""></div>
-                <div class="md:w-1/2 px-4 mb-8 md:mb-0"><img type="button" data-modal-toggle="modalProject7"
+                <div class="md:w-1/2 px-4 mb-8 md:mb-0 imgMobile"><img type="button" data-modal-toggle="modalProject7"
                         class="h-full cursor-pointer shadow-md" src="../assets/Portfolio/7.png" alt=""></div>
             </div>
         </div>

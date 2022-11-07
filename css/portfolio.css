@@ -1,0 +1,60 @@
+body{
+    margin: 1rem !important;
+}
+
+.linePortfolio{
+    height: 1px;
+    width: 35rem;
+}
+
+.titlePortfolio{
+    margin-right: 25rem;
+}
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 768px) {
+    .titlePortfolio{
+        margin-right: 7rem;
+    }
+    .lineUp{
+        display: block;        
+    }
+    .lineDown{
+        display: none !important;
+    }
+    .titleSection{
+        font-size: 72px !important;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 599px) {
+    .titlePortfolio{
+        margin-right: 0 !important;
+        margin-left: 1rem;
+    }
+    .lineUp{
+        display: block;        
+    }
+    .lineDown{
+        display: none !important;
+    }
+    .titleSection{
+        margin-left: 1rem;
+        font-size: 34px !important;
+    }
+    .linePortfolio{
+        display: none;
+    }
+    body{
+        margin: 0 !important;
+    }
+    .divImgs img{
+        width: 100%;
+        height: 25rem;
+    }
+    .imgMobile{
+        padding-right: 0 !important;
+    }
+    .footerLine{
+        width: 105%;
+    }
+}
