@@ -14,17 +14,43 @@
     color: #000000;
 }
 
-.textEndStyle{
+.textEndStyle {
     font-family: 'IBM Plex Sans';
-font-style: italic;
-font-weight: 600;
-font-size: 32px;
-line-height: 42px;
-/* or 88% */
+    font-style: italic;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    /* or 88% */
 
-letter-spacing: 0.05em;
+    letter-spacing: 0.05em;
 
-/* VerdeMedio */
+    /* VerdeMedio */
 
-color: #154344;
+    color: #154344;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 2560px) {
+    .bg-img-agencia {
+        height: 16rem;
+    }
+}
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 768px) {
+    .bg-img-agencia {
+        width: 100%;
+        margin-top: 5rem;        
+        height: 6rem;
+    }
+    .textStyles p{
+        margin-top: 2rem;
+        line-height: 36px;
+    }
+    .titleAgency{
+        font-size: 2rem !important;
+    }
+    .textEndStyle {
+        font-size: 1.25rem !important;
+        margin-bottom: 0 !important;
+    }
+    
 }
