@@ -70,3 +70,82 @@ label {
     background-color: #D9D9D9 !important;
     font-size: 27px !important;
 }
+
+@media only screen and (min-device-width: 1501px) and (max-device-width: 2570px) {
+    .contactForm{
+        margin-left: 10rem;
+    }
+    .infoContact{
+        left: 863px;
+        top: 346px;
+    }
+}
+
+@media only screen and (min-device-width: 1101px) and (max-device-width: 1500px) {
+    .contactForm{
+        margin-left: 10rem;
+    }
+    .infoContact{
+        left: 383px;
+        top: 346px;
+    }
+}
+
+@media only screen and (min-device-width: 901px) and (max-device-width: 1100px) {
+    .contactForm{
+        margin-left: 10rem;
+    }
+    .infoContact{
+        left: 162px;
+        top: 347px;
+    }
+}
+
+@media only screen and (min-device-width: 501px) and (max-device-width: 900px) {
+    .contactForm{
+        margin-left: 10rem;
+    }
+    .infoContact{
+        left: 53px;
+        top: 314px;
+    }
+}
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 500px) {
+    .contactForm{
+        padding-left: 0;
+        box-shadow: none;
+        margin-top: 15rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    .infoContact{
+        left: 0;
+        width: 100%;
+        top: 132px;
+        box-shadow: none;
+        z-index: -2;
+    }
+    .titleContact{
+        text-align: start !important;
+        font-size: 34px !important;
+        margin-top: 4rem !important;
+        margin-bottom: 0 !important;
+    }
+    .redes{
+        display: none;
+    }
+    h3{
+        font-size: 14px !important;
+    }
+    h4{
+        text-align: center;
+    }
+    .flexContenContact {
+        flex-direction: column;
+        width: 100%;
+    }
+}
