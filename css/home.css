@@ -1,31 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100;500;700&display=swap');
 
 :root {
-    --main-bg-color: #154344;;
+    --main-bg-color: #154344;
+    ;
 }
 
-html{
+html {
     font-family: 'IBM Plex Serif', serif !important;
 }
 
 .bg-img-fondo {
-    background-image: url("../assets/fondoPrincipal.jpg");
+    background-image: url("../assets/Portada.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 700px;
 }
 
-h1{
+h1 {
     font-family: 'IBM Plex Serif', serif;
     font-weight: 700;
 }
 
-h2{
+h2 {
     color: var(--main-bg-color);
 }
 
-.footerLine{
-    border-top: 1px inset black;    
+.footerLine {
+    border-top: 1px inset black;
     margin-bottom: 2rem;
+}
+
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 1023px) {
+    .hiddenMobile {
+        display: none;
+    }
+    .titleHome{
+        margin-top: 7rem;
+        text-align: center;
+    }
+    .bg-img-fondo{
+        height: 50%;
+    }
+    .subtitleHome{
+        text-align: center;
+    }
+    .pHome{
+        font-size: 16px !important;
+    }
+    .lineUp{
+        display: block;        
+    }
+    .lineDown{
+        display: none !important;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+    .titleHome{
+        padding-right: 20rem;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 2460px) {
+    .lineUp{
+        display: none !important;        
+    }
 }
