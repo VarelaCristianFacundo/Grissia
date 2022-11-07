@@ -49,7 +49,7 @@ body{
     }
     .divImgs img{
         width: 100%;
-        height: 300px;
+        height: auto;
     }
     .imgMobile{
         padding-left: 0 !important;
