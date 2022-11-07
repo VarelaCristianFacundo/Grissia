@@ -1,7 +1,15 @@
-body{
-    margin: 1rem !important;
+.mobileImg{
+    display: none;
 }
-
+.titleServices{
+    margin-left: 1rem;
+}
+.subtitleServices{
+    margin-left: 1rem;
+}
+.lineServices{
+    margin-left: 1rem;
+}
 .subtitles {
     font-style: normal;
     font-weight: 700;
@@ -33,8 +41,30 @@ body{
     width: 53%;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 599px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 450px) {
     .lineServices{
         display: none;
+    }
+    .mobileImg{
+        display: block;
+    }
+    .desktopImg{
+        display: none;
+    }    
+    .subtitles{
+        font-family: IBM Plex Sans;
+        font-size: 15px !important;
+    }
+    .boxServices {
+        border: none;
+    } p{
+        font-size: 14px !important;
+        margin-bottom: 1rem;
+    }
+    .footerLine{
+        margin-top: 4rem !important;
+    }
+    .lineMobile{
+        width: 30%;
     }
 }
