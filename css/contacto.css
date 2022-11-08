@@ -87,7 +87,7 @@ label {
 
 @media only screen and (min-device-width: 1101px) and (max-device-width: 1500px) {
     .contactForm{
-        margin-left: 10rem;
+        margin-left: 0rem;
     }
     .infoContact{
         left: 383px;
@@ -97,7 +97,7 @@ label {
 
 @media only screen and (min-device-width: 901px) and (max-device-width: 1100px) {
     .contactForm{
-        margin-left: 10rem;
+        margin-left: 2rem;
     }
     .infoContact{
         left: 162px;
@@ -105,9 +105,9 @@ label {
     }
 }
 
-@media only screen and (min-device-width: 501px) and (max-device-width: 900px) {
+@media only screen and (min-device-width: 601px) and (max-device-width: 900px) {
     .contactForm{
-        margin-left: 10rem;
+        margin-left: 7rem;
     }
     .infoContact{
         left: 53px;
@@ -115,7 +115,7 @@ label {
     }
 }
 
-@media only screen and (min-device-width: 280px) and (max-device-width: 500px) {
+@media only screen and (min-device-width: 280px) and (max-device-width: 600px) {
     .contactForm{
         padding-left: 0;
         box-shadow: none;
