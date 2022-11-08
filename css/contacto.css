@@ -37,6 +37,10 @@
     color: #EC9A59;    
 }
 
+li a{
+    font-family: 'IBM Plex Sans';
+}
+
 .inputContactFormt {
     border: none;
     border-radius: 0;
