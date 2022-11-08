@@ -6,6 +6,14 @@ img{
     border: none !important;
 }
 
+h4{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px !important;
+}
+
+a{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
 #modalProject1{
     background: rgba(0, 0, 0, 0.9) !important;
     opacity: 0.95;
@@ -14,11 +22,16 @@ img{
 
 .linePortfolio{
     height: 1px;
-    width: 35rem;
+    width: 38rem;
 }
 
 .titlePortfolio{
-    margin-right: 25rem;
+    margin-right: 20rem;
+}
+
+.titleSection{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 50px !important;
 }
 
 @media only screen and (min-device-width: 600px) and (max-device-width: 768px) {

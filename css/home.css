@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;400&family=IBM+Plex+Serif:wght@700&display=swap');
 
 :root {
     --main-bg-color: #154344;
@@ -6,7 +6,7 @@
 }
 
 html {
-    font-family: 'IBM Plex Serif', serif !important;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .bg-img-fondo {
@@ -19,7 +19,11 @@ html {
 
 h1 {
     font-family: 'IBM Plex Serif', serif;
-    font-weight: 700;
+    line-height: 84px !important;
+    /* or 120% */
+
+    letter-spacing: 0.05em !important;
+    font-weight: 500;
 }
 
 h2 {
@@ -36,35 +40,41 @@ h2 {
     .hiddenMobile {
         display: none;
     }
-    .titleHome{
+
+    .titleHome {
         margin-top: 7rem;
         text-align: center;
     }
-    .bg-img-fondo{
+
+    .bg-img-fondo {
         height: 50%;
     }
-    .subtitleHome{
+
+    .subtitleHome {
         text-align: center;
     }
-    .pHome{
+
+    .pHome {
         font-size: 16px !important;
     }
-    .lineUp{
-        display: block;        
+
+    .lineUp {
+        display: block;
     }
-    .lineDown{
+
+    .lineDown {
         display: none !important;
     }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
-    .titleHome{
+    .titleHome {
         padding-right: 20rem;
     }
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 2460px) {
-    .lineUp{
-        display: none !important;        
+    .lineUp {
+        display: none !important;
     }
 }

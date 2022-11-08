@@ -2,6 +2,8 @@
     display: none;
 }
 .titleServices{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 50px !important;
     margin-left: 1rem;
 }
 .subtitleServices{
@@ -38,7 +40,24 @@
 
 .lineServices{
     height: 1px;
-    width: 53%;
+    width: 61%;
+}
+
+h3{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h4{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px !important;
+}
+
+p{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+a{
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 450px) {
