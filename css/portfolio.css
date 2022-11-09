@@ -19,6 +19,36 @@ a{
     opacity: 0.95;
     margin-bottom: 20rem;
 }
+#modalProject2{
+    background: rgba(0, 0, 0, 0.9) !important;
+    opacity: 0.95;
+    margin-bottom: 20rem;
+}
+#modalProject3{
+    background: rgba(0, 0, 0, 0.9) !important;
+    opacity: 0.95;
+    margin-bottom: 20rem;
+}
+#modalProject4{
+    background: rgba(0, 0, 0, 0.9) !important;
+    opacity: 0.95;
+    margin-bottom: 20rem;
+}
+#modalProject5{
+    background: rgba(0, 0, 0, 0.9) !important;
+    opacity: 0.95;
+    margin-bottom: 20rem;
+}
+#modalProject6{
+    background: rgba(0, 0, 0, 0.9) !important;
+    opacity: 0.95;
+    margin-bottom: 20rem;
+}
+#modalProject7{
+    background: rgba(0, 0, 0, 0.9) !important;
+    opacity: 0.95;
+    margin-bottom: 20rem;
+}
 
 .linePortfolio{
     height: 1px;
