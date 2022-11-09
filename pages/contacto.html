@@ -15,6 +15,9 @@
     <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
     <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="../css/contacto.css">
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">emailjs.init('RJEsy9tOZN3RhmLE3')</script>
 
     <title>Grissia - Contacto</title>
 </head>
@@ -82,7 +85,7 @@
         <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
             <h2 class="mt-32 mb-16 text-6xl tracking-tight font-extrabold text-center titleContact">Contactanos
             </h2>
-            <form action="#" class="space-y-8 contactForm md:relative lg:w-[750px]">
+            <form id="form" class="space-y-8 contactForm md:relative lg:w-[750px]">
                 <div class="infoContact md:absolute md:top-8 md:left-[-100px]">
                     <h3 class="titleFormInfo mt-4">Ponete en contacto con nosotros</h3>
                     <p>¿Te gustaría trabajar con Grissia? </p>
@@ -125,14 +128,14 @@
                 <h4 class="titleFormContact">Envianos un mensaje</h4>
                 <div class="flex gap-16 flexContenContact">
                     <div>
-                        <label for="nombre" class="block mb-2 text-sm font-medium text-gray-900">Nombre</label>
-                        <input type="text" id="nombre"
+                        <label for="firstName" class="block mb-2 text-sm font-medium text-gray-900">Nombre</label>
+                        <input type="text" id="firstName" name="firstName"
                             class="inputContactFormt block w-full text-sm text-gray-900 bg-gray-50 border shadow-sm focus:ring-primary-500 focus:border-primary-500"
                             placeholder="Escribe tu nombre" required>
                     </div>
                     <div>
-                        <label for="apellido" class="block mb-2 text-sm font-medium text-gray-900">Apellido</label>
-                        <input type="text" id="apellido"
+                        <label for="lastName" class="block mb-2 text-sm font-medium text-gray-900">Apellido</label>
+                        <input type="text" id="lastName" name="lastName"
                             class="inputContactFormt block w-full text-sm text-gray-900 bg-gray-50 border shadow-sm focus:ring-primary-500 focus:border-primary-500"
                             placeholder="Escribe tu apellido" required>
                     </div>
@@ -140,26 +143,27 @@
                 <div class="flex gap-16 flexContenContact">
                     <div>
                         <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Email</label>
-                        <input type="email" id="email"
+                        <input type="email" id="email" name="email"
                             class="inputContactFormt block w-full text-sm text-gray-900 bg-gray-50 border shadow-sm focus:ring-primary-500 focus:border-primary-500"
                             placeholder="Escribe tu email" required>
                     </div>
                     <div>
-                        <label for="telefono" class="block mb-2 text-sm font-medium text-gray-900">Telefono</label>
-                        <input type="text" id="telefono"
+                        <label for="phone" class="block mb-2 text-sm font-medium text-gray-900">Telefono</label>
+                        <input type="text" id="phone" name="phone"
                             class="inputContactFormt block w-full text-sm text-gray-900 bg-gray-50 border shadow-sm focus:ring-primary-500 focus:border-primary-500"
                             placeholder="Escribe tu numero" required>
                     </div>
                 </div>
                 <div class="sm:col-span-2 flexContenContact">
                     <label for="message" class="block mb-2 text-sm font-medium text-gray-900">Mensaje</label>
-                    <input type="text" id="mensaje"
+                    <input type="text" id="message" name="message"
                         class="inputContactFormt block w-full text-sm text-gray-900 bg-gray-50 border shadow-sm focus:ring-primary-500 focus:border-primary-500"
                         placeholder="Contanos sobre tu idea" required>
                 </div>
-                <button type="submit"
+                <button type="submit" id="button"
                     class="btnContact py-3 px-5 text-sm font-medium text-center text-white hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300">Enviar
                 </button>
+                <span id="isSend" class="text-[#EC9A59] ml-6 uppercase font-bold"></span>
             </form>
         </div>
     </section>
@@ -244,5 +248,6 @@
     </div>
 </footer>
 
+<script src="../js/mail.js"></script>
 </body>
 </html>
