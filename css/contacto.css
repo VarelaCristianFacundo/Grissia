@@ -97,6 +97,9 @@ label {
         padding-right: 1rem !important;
         padding-bottom: 2rem !important;
     }
+    #form{
+        margin-left: 0rem !important;
+    }
 }
 
 @media only screen and (min-device-width: 1101px) and (max-device-width: 1500px) {
