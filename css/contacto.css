@@ -99,7 +99,7 @@ label {
     }
     #form{
         margin-left: 0rem !important;
-    }
+    }    
 }
 
 @media only screen and (min-device-width: 1101px) and (max-device-width: 1500px) {
@@ -113,6 +113,7 @@ label {
         padding-right: 1rem !important;
         padding-bottom: 2rem !important;
     }
+    
 }
 
 @media only screen and (min-device-width: 901px) and (max-device-width: 1100px) {
@@ -178,4 +179,24 @@ label {
         flex-direction: column;
         width: 100%;
     }
+}
+
+input:focus {
+    box-shadow: none !important;
+    border-color: #04202B !important;
+} 
+
+button:hover {
+    box-shadow: none !important;
+    background-color: #EC9A59 !important;
+}
+
+button:focus {
+    box-shadow: none !important;
+    background-color: #F1C39E !important;
+}
+
+button:active {
+    box-shadow: none !important;
+    background-color: #F1C39E !important;
 }
