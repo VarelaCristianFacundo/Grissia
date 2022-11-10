@@ -35,8 +35,25 @@ h2 {
     margin-bottom: 2rem;
 }
 
+.subtitleHome{
+    font-size: 20px !important;
+    letter-spacing: 0.05em;
+}
 
-@media only screen and (min-device-width: 280px) and (max-device-width: 1023px) {
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 2460px) {
+    .lineUp {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+    .titleHome {
+        padding-right: 20rem;
+    }
+}
+
+@media only screen and (min-device-width: 426px) and (max-device-width: 1023px) {
     .hiddenMobile {
         display: none;
     }
@@ -67,14 +84,39 @@ h2 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
-    .titleHome {
-        padding-right: 20rem;
+@media only screen and (min-device-width: 285px) and (max-device-width: 425px) {
+    .hiddenMobile {
+        display: none;
     }
-}
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 2460px) {
+    .titleHome {
+        margin-top: 7rem;
+        text-align: center;
+    }
+
+    .bg-img-fondo {
+        height: 50%;
+    }
+
+    .subtitleHome {
+        text-align: center;
+    }
+
+    .pHome {
+        font-size: 16px !important;
+    }
+
     .lineUp {
+        display: block;
+    }
+
+    .lineDown {
         display: none !important;
+    }
+    h1{
+        line-height: 54px !important;
+    }
+    .subtitleHome{
+        font-size: 11px !important;
     }
 }

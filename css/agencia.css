@@ -18,7 +18,7 @@
     font-family: 'IBM Plex Sans';
     font-style: italic;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 42px;
     /* or 88% */
 
@@ -40,7 +40,7 @@ a{
 
 p{
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 h2{
