@@ -64,6 +64,18 @@ a{
     font-size: 50px !important;
 }
 
+.imgMobile img{
+    filter: grayscale(100%);
+}
+.imgMobile img:hover{
+    filter: none;
+}
+.portfolioImg{
+    width: 81px;
+    height: 100%;
+    max-width: none;
+}
+
 @media only screen and (min-device-width: 600px) and (max-device-width: 768px) {
     .titlePortfolio{
         margin-right: 7rem;
@@ -111,4 +123,7 @@ a{
     .popupMobile{
         margin-top: 15rem;
     }    
+    .portfolioImg{
+        width: 33px;
+    }
 }
