@@ -61,7 +61,7 @@ a{
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 450px) {
+@media only screen and (min-device-width: 250px) and (max-device-width: 767px) {
     .lineServices{
         display: none;
     }

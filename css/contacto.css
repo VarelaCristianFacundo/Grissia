@@ -142,7 +142,7 @@ label {
     }
 }
 
-@media only screen and (min-device-width: 280px) and (max-device-width: 600px) {
+@media only screen and (min-device-width: 250px) and (max-device-width: 600px) {
     .contactForm{
         padding-left: 0;
         box-shadow: none;
