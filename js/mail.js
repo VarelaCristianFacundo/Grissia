@@ -9,7 +9,7 @@ document.getElementById('form')
     btn.innerHTML = 'Enviando...';
 
     const serviceID = 'default_service';
-    const templateID = 'template_478xtbj';
+    const templateID = 'template_jfyhude';
 
     emailjs.sendForm(serviceID, templateID, this)
       .then(() => {
@@ -23,5 +23,9 @@ document.getElementById('form')
         }, 10000);
       }, (err) => {
         btn.innerHTML = 'Enviar';
+        isSend.innerHTML = 'ERROR: No enviado'
+        setTimeout(() => {
+          isSend.innerHTML = ''
+        }, 10000);
       });
   });
