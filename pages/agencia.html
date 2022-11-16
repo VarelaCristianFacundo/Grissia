@@ -48,24 +48,86 @@
                     <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                         <li>
                             <a href="./servicios.html"
+                                id="nav-services"
                                 class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0">Servicios</a>
                         </li>
                         <li class="hiddenMobile">|</li>
                         <li>
                             <a href="./portfolio.html"
+                                id="nav-portfolio"
                                 class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0">Portfolio</a>
                         </li>
                         <li class="hiddenMobile">|</li>
                         <li>
                             <a href="./agencia.html"
+                                id="nav-agency"
                                 class="block font-extrabold py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0">Agencia</a>
                         </li>
                         <li class="hiddenMobile">|</li>
                         <li>
                             <a href="./contacto.html"
+                                id="nav-contact"
                                 class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0">Contacto</a>
                         </li>
                     </ul>
+                </div>
+                <div class="flex items-center md:order-2">
+                    <button id="lang" type="button" data-dropdown-toggle="language-dropdown-menu"
+                        class="inline-flex justify-center font-semibold items-center p-2 text-sm text-gray-700 rounded cursor-pointer hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
+                        ES
+                    </button>
+                    <button id="theme-toggle" type="button"
+                        class="ml-6 text-primary-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
+                        <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z">
+                            </path>
+                        </svg>
+                        <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                                fill-rule="evenodd" clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                    <!-- Dropdown -->
+                    <div class="z-50 my-4 text-base list-none rounded divide-y divide-gray-100 shadow dark:bg-gray-700 block hidden"
+                        id="language-dropdown-menu" data-popper-reference-hidden="" data-popper-escaped=""
+                        data-popper-placement="bottom" style="
+                        position: absolute;
+                        inset: 0px auto auto 0px;
+                        margin: 0px;
+                        transform: translate(588px, 76px);
+                      ">
+                        <ul class="py-1" role="none">
+                            <li>
+                                <a href="#en"
+                                    class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                                    role="menuitem"> EN
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#es"
+                                    class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                                    role="menuitem"> ES
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button data-collapse-toggle="mobile-menu-language-select" type="button"
+                        class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="mobile-menu-language-select" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1"
+                    id="mobile-menu-language-select">
                 </div>
             </div>
         </nav>
@@ -85,21 +147,21 @@
     </section>
     <section class="bg-white">
         <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-40">
-            <div class="textStyles mx-auto">
-                <h2 class="mb-4 text-4xl tracking-wider font-extrabold leading-tight titleAgency">Nuestra Agencia</h2>
-                <p class="mb-4 mt-16 tracking-wider">Grissia es un <span class="font-extrabold">equipo
+            <div class="textStyles mx-auto" id="textsAgency">
+                <h2 id="textOneAgency" class="mb-4 text-4xl tracking-wider font-extrabold leading-tight titleAgency">Nuestra Agencia</h2>
+                <p id="textTwoAgency" class="mb-4 mt-16 tracking-wider">Grissia es un <span class="font-extrabold">equipo
                         multidisciplinario</span> con amplia
                     formación en marketing, relaciones públicas, social media management, diseño gráfico, copywriting,
                     publicidad y otras disciplinas que complementan a la perfección.</p>
 
-                <p class="mb-4 tracking-wider">Nos dedicamos a la <span class="font-extrabold">comunicación estratégica
+                <p id="textThreeAgency" class="mb-4 tracking-wider">Nos dedicamos a la <span class="font-extrabold">comunicación estratégica
                         entre nuestros clientes y sus públicos.</span>
                     Trabajamos para posicionar a las organizaciones que confían en nosotros, desarrollando estrategias
                     comunicacionales para transmitir el mensaje de la marca al público adecuado.</p>
                 <div class="mt-32 flex justify-center">
                     <img src="../assets/utilities/line.png" alt="Estilo de site">
                 </div>
-                <h2 class="textEndStyle mt-24 mb-6 text-center tracking-wider">“Generando iniciativas que marcan la
+                <h2 id="textFourAgency" class="textEndStyle mt-24 mb-6 text-center tracking-wider">“Generando iniciativas que marcan la
                     diferencia”</h2>
             </div>
         </div>
@@ -157,23 +219,23 @@
                         <h3 class="mb-4 text-xl font-semibold text-[#EC9A59]">Menu</h3>
                         <ul class="text-black">
                             <li class="mb-2">
-                                <a href="./servicios.html" class="hover:underline">Servicios</a>
+                                <a id="footer-services" href="./servicios.html" class="hover:underline">Servicios</a>
                             </li>
                             <li class="mb-2">
-                                <a href="./portfolio.html" class="hover:underline">Portfolio</a>
+                                <a id="footer-portfolio href="./portfolio.html" class="hover:underline">Portfolio</a>
                             </li>
                             <li class="mb-2">
-                                <a href="./agencia.html" class="hover:underline">Agencia</a>
+                                <a id="footer-agency" href="./agencia.html" class="hover:underline">Agencia</a>
                             </li>
                             <li class="mb-2">
-                                <a href="./contacto.html" class="hover:underline">Contacto</a>
+                                <a id="footer-contact" href="./contacto.html" class="hover:underline">Contacto</a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="flex-1 md:border-l border-black">
                     <div class="mt-12 pb-24 md:pl-14">
-                        <h3 class="mb-4 text-xl font-semibold text-[#EC9A59]">Contacto</h3>
+                        <h3 id="contactFooter" class="mb-4 text-xl font-semibold text-[#EC9A59]">Contacto</h3>
                         <ul class="text-black">
                             <li class="mb-2">
                                 <a href="mailto:martina@somosgrissia.com"
@@ -189,7 +251,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="../js/lang.js"></script>
 </body>
 
 </html>
