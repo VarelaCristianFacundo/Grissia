@@ -136,4 +136,7 @@ h2 {
         font-size: 24px;
         border: none;        
     }
+    .enesButton{
+        margin-right: 18px;
+    }
 }
