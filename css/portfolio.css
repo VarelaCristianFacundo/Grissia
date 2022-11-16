@@ -171,4 +171,10 @@ a{
     .portfolioImg{
         width: 33px;
     }
+    .imgMobile{
+        border-radius: none !important;
+    } img{
+        border-radius: none !important;
+    }
+    
 }
