@@ -134,7 +134,6 @@ h2 {
     }
     a{
         font-size: 24px;
-        border: none;
-        margin-top: 1rem;
+        border: none;        
     }
 }
