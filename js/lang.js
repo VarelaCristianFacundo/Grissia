@@ -100,7 +100,7 @@ var language = {
     textEightContact: "Last name",
     textNineContact: "Email",
     textTenContact: "Phone",
-    textElecenContact: "Message",
+    textElevenContact: "Message",
     button:"Send"
   }
 }
