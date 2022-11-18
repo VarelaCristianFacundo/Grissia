@@ -132,8 +132,12 @@ h2 {
         height: 1000px;
         margin-top: 2rem;
     }
-    a{
+    li a{
         font-size: 24px;
+        border: none;        
+    }
+    footer a{
+        font-size: 15px;
         border: none;        
     }
     .enesButton{
