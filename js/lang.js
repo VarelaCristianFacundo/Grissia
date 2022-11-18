@@ -93,7 +93,7 @@ var language = {
     textOneContact: "Contact",
     textTwoContact: "Get in touch with us",
     textThreeContact: "Would you like to work with Grissia?",
-    textFourContact: "Do you have any questions about the agency?",
+    textFourContact: "Do you have any questions?",
     textFiveContact: "Contact us!",
     textSixContact: "Send us a message",
     textSevenContact: "Name",
