@@ -6,6 +6,8 @@
 >  
 > - **Host:** GH PAGES
 > - **Web:**   <i class="icon-upload">https://varelacristianfacundo.github.io/Grissia/</i>
+> - **Host:** Hostinger
+> - **Web:**   <i class="icon-upload">https://somosgrissia.com/</i>
 
 ----------
 **Pantalla de la web**
