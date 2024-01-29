@@ -1,19 +1,17 @@
 {
   "name": "grissia",
-  "version": "0.1.0",  
+  "version": "0.2.0",
   "homepage": "http://VarelaCristianFacundo.github.io/grissia",
   "devDependencies": {
-    "tailwindcss": "^3.2.0"
-  },
-  "dependencies": {
-    "flowbite": "^1.5.3"
+    "tailwindcss": "^3.2.0",
+    "http-server": "^0.12.4"
   },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "http-server -c-1",
+    "build": "tailwindcss build css/agencia.css -o build/css/agencia.css && tailwindcss build css/contacto.css -o build/css/contacto.css && tailwindcss build css/home.css -o build/css/home.css && tailwindcss build css/portfolio.css -o build/css/portfolio.css && tailwindcss build css/servicios.css -o build/css/servicios.css",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "eject": "react-scripts eject"
   }
 }
